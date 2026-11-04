@@ -3,14 +3,19 @@
   background-color: #2e2f42;
   text-align: center;
   letter-spacing: 0.02em;
-  background-image: element(images/people-office 1.jpg) 
+  background-image:
+  linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+  url('/images/people-office\ 1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  
 }
 .hero-container {
   max-width: 496px;
   padding: 0;
 }
 .hero-title {
-padding-bottom: 48px;
+  padding-bottom: 48px;
 }
 .hero-button {
   padding: 16px 32px;

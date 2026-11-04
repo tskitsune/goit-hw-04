@@ -67,6 +67,15 @@ h2 {
   padding-left: 15px;
   padding-right: 15px;
 }
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  background: #4d5ae5;
+}
 .section {
   padding: 120px 0;
   color: #fff;
@@ -83,3 +92,4 @@ h2 {
   clip-path: inset(100%);
   margin: -1px;
 }
+

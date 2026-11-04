@@ -23,3 +23,14 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.features-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 4px;
+  width: 264px;
+  background: #f4f4fd;
+  height: 112px;
+  margin-bottom: 8px;
+}
