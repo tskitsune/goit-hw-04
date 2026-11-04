@@ -39,11 +39,14 @@
   position: relative;
   display: block;
   padding: 24px 0;
+  transition: color 250ms ease;
 }
-.header-nav-link:hover {
+.header-nav-link:hover,
+.header-nav-link:focus,
+.header-nav-link.active {
   color: #404bbf;
 }
-.header-nav-link:hover::after {
+.header-nav-link.active::after {
   content: '';
   position: absolute;
   left: 0;
@@ -69,4 +72,5 @@
 .header-address-link {
   display: block;
   padding: 24px 0;
+  transition: color 250ms ease;
 }
